@@ -7,7 +7,7 @@ namespace Tyuiu.KotlovaEA.Sprint1.Task4.V28.Lib
         {
             double res = (Math.Cos(60 * Math.PI / 2)) / (Math.Exp(2 * x + y));
 
-            return Math.Round(result, 3);
+            return Math.Round(res, 3);
         }
     }
 }
