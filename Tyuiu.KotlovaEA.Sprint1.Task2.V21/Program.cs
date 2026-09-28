@@ -33,7 +33,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine($"Площадь прямоугольника = {ds.CalculateRectangleSquare(a, b)}");
+        Console.WriteLine("Площадь прямоугольника = " + ds.CalculateRectangleSquare(a, b));
 
         Console.WriteLine();
         Console.ReadLine();
