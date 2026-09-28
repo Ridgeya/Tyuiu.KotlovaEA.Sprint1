@@ -12,7 +12,7 @@ namespace Tyuiu.KotlovaEA.Sprint1.Task3.V16.Test
             double x2 = 3;
             double wait = -5;
             double res = ds.CoeffOfQuadraticEquation(x1, x2);
-            Assert.AreEqual(expected, res, 0.001);
+            Assert.AreEqual(wait, res, 0.001);
         }
     }
 }
