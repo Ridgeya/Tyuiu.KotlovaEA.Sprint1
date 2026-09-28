@@ -33,7 +33,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine($"Коэффициент b = {ds.CoeffOfQuadraticEquation(x1, x2)}");
+        Console.WriteLine("Коэффициент b = " +ds.CoeffOfQuadraticEquation(x1, x2));
 
         Console.WriteLine();
         Console.ReadLine();
