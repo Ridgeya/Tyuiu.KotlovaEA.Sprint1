@@ -9,7 +9,7 @@ internal class Program
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
-        Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+        Console.WriteLine("* Тема: Базовые навыки работы в C#                                         *");
         Console.WriteLine("* Задание #0                                                              *");
         Console.WriteLine("* Вариант #11                                                             *");
         Console.WriteLine("* Выполнил: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");

@@ -8,7 +8,7 @@ namespace Tyuiu.KotlovaEA.Sprint1.Task0.V11.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            var res = ds.Calculate();
+            var res = ds.Calculate ();
             Assert.AreEqual(7, res);
         }
     }
