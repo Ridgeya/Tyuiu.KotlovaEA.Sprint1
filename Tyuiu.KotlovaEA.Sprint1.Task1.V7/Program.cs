@@ -1,4 +1,4 @@
-﻿using Tyuiu.KotlovaEA.Sprint1.Task0.V11.Lib;
+﻿using Tyuiu.KotlovaEA.Sprint1.Task1.V7.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -10,24 +10,31 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
         Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-        Console.WriteLine("* Задание #0                                                              *");
-        Console.WriteLine("* Вариант #11                                                             *");
+        Console.WriteLine("* Задание #1                                                              *");
+        Console.WriteLine("* Вариант #7                                                              *");
         Console.WriteLine("* Выполнил: Котлова Елизавета Алексеевна | АСОиУБ-26-1                    *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу, которая вычисляет выражение 4*5/2-18/2/3 и          *");
-        Console.WriteLine("* печатает результат на экране.                                           *");
+        Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+        Console.WriteLine("* вычисляет результат по формуле (5*x)/(y+x) и печатает его на экране.    *");
         Console.WriteLine("*                                                                         *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* 4 * 5 / 2 - 18 / 2 / 3                                                  *");
+        
+        double x, y;
+
+        Console.WriteLine("Введите значение X:");
+        x = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Введите значение Y:");
+        y = Convert.ToDouble(Console.ReadLine());
+
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
+        Console.WriteLine(ds.Calculate(x, y));
 
-        Console.WriteLine(ds.Calculate());
-        Console.WriteLine();
         Console.ReadLine();
     }
 }
