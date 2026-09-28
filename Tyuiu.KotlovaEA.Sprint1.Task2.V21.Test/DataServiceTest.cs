@@ -8,8 +8,13 @@ namespace Tyuiu.KotlovaEA.Sprint1.Task2.V21.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int res = ds.CalculateRectangleSquare(5, 3);
-            Assert.AreEqual(15, res);
+
+            int a = 5;
+            int b = 3;
+            int expected = 15;                              // 5 * 3 = 15
+            int res = ds.CalculateRectangleSquare(a, b);
+
+            Assert.AreEqual(expected, res);
         }
     }
 }
