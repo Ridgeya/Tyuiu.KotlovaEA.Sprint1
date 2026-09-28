@@ -8,8 +8,11 @@ namespace Tyuiu.KotlovaEA.Sprint1.Task3.V16.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double res = ds.CoeffOfQuadraticEquation(2, 3);
-            Assert.AreEqual(-5.0, res, 0.001);
+            double x1 = 2;
+            double x2 = 3;
+            double expected = -5;
+            double res = ds.CoeffOfQuadraticEquation(x1, x2);
+            Assert.AreEqual(expected, res, 0.001);
         }
     }
 }
